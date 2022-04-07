@@ -1,9 +1,6 @@
 package homework14;
 
-import professions.Person;
-import vehicles.Car;
-import vehicles.Lorry;
-import vehicles.SportCar;
+import homework14.vehicles.Car;
 
 public class HomeworkFourteen {
 

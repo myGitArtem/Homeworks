@@ -1,4 +1,4 @@
-package vehicles;
+package homework14.vehicles;
 
 public class Lorry extends Car {
     private int carrying;

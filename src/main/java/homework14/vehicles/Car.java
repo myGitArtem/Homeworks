@@ -1,8 +1,8 @@
-package vehicles;
+package homework14.vehicles;
 
-import details.Engine;
-import professions.Driver;
-import professions.Person;
+import homework14.details.Engine;
+import homework14.professions.Driver;
+import homework14.professions.Person;
 
 public class Car extends Driver {
     protected String carClass;
