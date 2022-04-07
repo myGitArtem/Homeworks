@@ -1,17 +1,21 @@
 package professions;
 
-public class Person {
+public class Person extends Driver {
 
-    private final String fullName;
+    private String fullName;
+    private int age;
 
-    public Person(String fullName) {
+    public Person(String fullName, int age) {
         this.fullName = fullName;
+        this.age = age;
     }
 
     @Override
     public String toString() {
         return "Person{" +
                 "fullName='" + fullName + '\'' +
+                ", age=" + age +
                 '}';
     }
 }
+
